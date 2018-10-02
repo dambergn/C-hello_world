@@ -24,3 +24,8 @@ gcc hello.c
 gcc -o hello hello.c
 ./hello
 ```
+### Simple run script
+```
+./compile.sh
+#enter the name of the file you want to compile and run.
+```
