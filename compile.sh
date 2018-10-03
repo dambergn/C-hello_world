@@ -6,5 +6,5 @@ read file
 echo "--compiling C code"
 gcc $file
 
-echo "--exicuting comiled code"
+echo "--executing compiled code"
 ./a.out
