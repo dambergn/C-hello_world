@@ -29,3 +29,16 @@ gcc -o hello hello.c
 ./compile.sh
 #enter the name of the file you want to compile and run.
 ```
+
+### Compile on linux to windows exe
+
+```
+sudo apt-get install mingw-w64
+
+#Then you can create 32-bit Windows executable with:
+i686-w64-mingw32-gcc -o hello32.exe hello.c
+
+#And 64-bit Windows executable with:
+x86_64-w64-mingw32-gcc -o hello64.exe hello.c
+```
+- note text based apps will need to be run from cmd prompt
